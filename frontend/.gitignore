@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Java / Maven
+target/
+video-editor-backend/target/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Generated video files
+uploads/
+outputs/
+*.tmp

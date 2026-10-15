@@ -1,0 +1,22 @@
+# Frontend dependencies and build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Backend build
+target/
+video-editor-backend/target/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Generated files
+uploads/
+outputs/
+*.tmp
